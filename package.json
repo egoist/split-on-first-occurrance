@@ -1,0 +1,35 @@
+{
+  "name": "split-on-first-occurrance",
+  "version": "0.0.0",
+  "description": "Split a string on the first occurrance",
+  "license": "MIT",
+  "repository": " of a char(chars)./split-on-first-occurrance",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "split"
+  ],
+  "devDependencies": {
+    "jest-cli": "^15.1.1",
+    "eslint": "latest",
+    "eslint-config-egoist": "latest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  }
+}
