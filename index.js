@@ -2,6 +2,9 @@
 
 module.exports = (input, char) => {
   char = char || ''
-  const m = input.match(new RegExp(`^([^${char}]+)${char}([^$]+)`))
-  return m && [m[1], m[2]]
+  const index = input.indexOf(char)
+  return [
+    input.substr(0, index),
+    input.substr(index + char.length)
+  ]
 }

@@ -10,4 +10,9 @@ describe('it works', () => {
     expect(split('double  spaces is  good!', '  '))
       .toEqual(['double', 'spaces is  good!'])
   })
+
+  test('edge case', () => {
+    expect(split('double\n spa\n\nces is \n\ngood!', '\n\n'))
+      .toEqual(['double\n spa', 'ces is \n\ngood!'])
+  })
 })
