@@ -1,17 +1,17 @@
-# split-on-first-occurrance
+# split-on-first-occurrence
 
-[![NPM version](https://img.shields.io/npm/v/split-on-first-occurrance.svg?style=flat-square)](https://npmjs.com/package/split-on-first-occurrance) [![NPM downloads](https://img.shields.io/npm/dm/split-on-first-occurrance.svg?style=flat-square)](https://npmjs.com/package/split-on-first-occurrance) [![Build Status](https://img.shields.io/circleci/project/egoist/split-on-first-occurrance/master.svg?style=flat-square)](https://circleci.com/gh/egoist/split-on-first-occurrance)
+[![NPM version](https://img.shields.io/npm/v/split-on-first-occurrence.svg?style=flat-square)](https://npmjs.com/package/split-on-first-occurrence) [![NPM downloads](https://img.shields.io/npm/dm/split-on-first-occurrence.svg?style=flat-square)](https://npmjs.com/package/split-on-first-occurrence) [![Build Status](https://img.shields.io/circleci/project/egoist/split-on-first-occurrence/master.svg?style=flat-square)](https://circleci.com/gh/egoist/split-on-first-occurrence)
 
 ## Install
 
 ```bash
-$ npm install --save split-on-first-occurrance
+$ npm install --save split-on-first-occurrence
 ```
 
 ## Usage
 
 ```js
-const split = require('split-on-first-occurrance')
+const split = require('split-on-first-occurrence')
 
 split('Author: EGOIST COOL', ' ')
 //=> ['Author:', 'EGOIST COOL']
@@ -23,7 +23,7 @@ split('Hello\n\nWorld\n\n!', '\n\n')
 
 ## API
 
-### splitOnFirstOccurrance(input, char)
+### splitOnFirstoccurrence(input, char)
 
 #### input
 

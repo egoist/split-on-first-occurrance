@@ -1,9 +1,9 @@
 {
-  "name": "split-on-first-occurrance",
+  "name": "split-on-first-occurrence",
   "version": "0.0.0",
-  "description": "Split a string on the first occurrance",
+  "description": "Split a string on the first occurrence of a char",
   "license": "MIT",
-  "repository": " of a char(chars)./split-on-first-occurrance",
+  "repository": "egoist/split-on-first-occurrence",
   "author": {
     "name": "EGOIST",
     "email": "0x142857@gmail.com",
