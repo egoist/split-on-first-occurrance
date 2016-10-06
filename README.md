@@ -23,7 +23,7 @@ split('Hello\n\nWorld\n\n!', '\n\n')
 
 ## API
 
-### splitOnFirstoccurrence(input, char)
+### split(input, char)
 
 #### input
 
