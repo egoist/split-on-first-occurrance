@@ -1,6 +1,6 @@
 {
   "name": "split-on-first-occurrence",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Split a string on the first occurrence of a char",
   "license": "MIT",
   "repository": "egoist/split-on-first-occurrence",
