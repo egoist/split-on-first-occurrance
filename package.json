@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "jest && eslint *.js"
+    "test": "jest && eslint *.js __test__/*"
   },
   "files": [
     "index.js"
@@ -30,6 +30,9 @@
     "testEnvironment": "node"
   },
   "eslintConfig": {
-    "extends": "egoist/esnext"
+    "extends": "egoist/esnext",
+    "env": {
+      "jest": true
+    }
   }
 }
